@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-from logging import exception
-
-
 def safe_print_division(a, b):
     try:
         result = a / b
