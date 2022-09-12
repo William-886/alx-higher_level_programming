@@ -4,7 +4,7 @@ def safe_print_list_integers(my_list=[], x=0):
     for a in range(x):
         try:
             print("{:d}".format(my_list[a]), end="")
-        except:
+        except Exception:
             pass
         if type(my_list[a]) == int:
                 count += 1
